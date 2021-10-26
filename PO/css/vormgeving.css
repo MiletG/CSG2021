@@ -1,17 +1,36 @@
 html, body {
-    padding: 0;
-    margin: 0;
+    padding: 6px;
+    margin: 6px;
 }
 
 body {
-    background: #5d524c;
+    background: 	rgb(78, 78, 78);
     color: #c8c3bf;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    size: 14px;
-    padding-left: 10%;
+    font-family: Roboto;
+    size: 15px;
+    padding-left: 0%;
 }
 
-#vogel {
-    width: 225px;
-    height: auto;
+div.Blok1 {
+    background: linear-gradient(to bottom, #ff99ff 0%, #ff33cc 100%);
+    padding: 15px;
+    margin: 0px;
+    border: 12px;
+    height: 500px;
 }
+
+div.Blok2{
+    background: linear-gradient(to top, #ff99ff 0%, #ff33cc 100%);
+    padding: 15px;
+    margin: 0px;
+    border: 12px;
+    height: 400px;
+}
+
+
+
+div.container {
+display: flex;
+}
+
+
