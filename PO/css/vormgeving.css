@@ -1,36 +1,57 @@
-html, body {
-    padding: 6px;
-    margin: 6px;
-}
-
 body {
-    background: 	rgb(78, 78, 78);
-    color: #c8c3bf;
-    font-family: Roboto;
-    size: 15px;
-    padding-left: 0%;
+    padding: 6px;
+    background-color: white;
 }
 
+h1 {
+font: lato:normal;
+font-size: 65px;
+margin: 0px;
+}
 div.Blok1 {
-    background: linear-gradient(to bottom, #ff99ff 0%, #ff33cc 100%);
+    color:rgb(255, 0, 0);   
+    font-family: Lato;
+    text-align: left;
+    size: 15px;
     padding: 15px;
     margin: 0px;
-    border: 12px;
-    height: 500px;
+    border: 15px;
+    height: 0px;
+    box-sizing: content-box;
+    
 }
-
-div.Blok2{
-    background: linear-gradient(to top, #ff99ff 0%, #ff33cc 100%);
-    padding: 15px;
-    margin: 0px;
-    border: 12px;
-    height: 400px;
-}
-
-
 
 div.container {
 display: flex;
+text-align: center;
+}
+li {
+    font-size: 2.0rem;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    padding: 5px 15px;
+    margin: 2px 0;
 }
 
+.horizontaal {
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    float: right;
+}
+
+.horizontaal li {
+    display: inline-block;
+    text-align: right;
+    margin: 0px 0px;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover, li:hover {
+    background-color: #CCC;
+    font-variant: normal;
+}
 

@@ -12,8 +12,8 @@ body {
 li {
     font-size: 2.0rem;
     width: 200px;
-    color: #111;
-    background-color: #AAA;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding: 5px 15px;
     margin: 2px 0;
 }
@@ -26,14 +26,15 @@ li {
 
 .horizontaal li {
     display: inline-block;
-    text-align: center;
+    text-align: right;
     margin: 0px 20px;
 }
 
 .verticaal {
     margin-top: 20px;
     background-color: red;
-    float: left;
+    float: right;
+    text-align: right;
 }
 
 .verticaal li {
@@ -49,5 +50,5 @@ a {
 
 a:hover, li:hover {
     background-color: #CCC;
-    font-variant: small-caps;
+    font-variant: normal;
 }
